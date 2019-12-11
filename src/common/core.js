@@ -169,6 +169,48 @@ export default {
 			})
 		})
 	},
+	/**
+	 * 获取图片信息
+	 * @param {String} url 图片地址 
+	 */
+	getImageInfo: function (url) {
+		return new Promise((resolve, reject) => {
+			uni.getImageInfo({
+				src: url,
+				success: image => {
+					resolve(Object.assign(image, {
+						succeeded: true
+					}))
+				},
+				fail: err => {
+					resolve(Object.assign(err, {
+						succeeded: false
+					}))
+				}
+			});
+		})
+	},
+	/**
+	 * 保存图片到相册
+	 * @param {String} path 图片路径
+	 */
+	saveImage: function (path) {
+		return new Promise((resolve, reject) => {
+			uni.saveImageToPhotosAlbum({
+				filePath: path,
+				success: res => {
+					resolve(Object.assign(res, {
+						succeeded: true
+					}))
+				},
+				fail: err => {
+					resolve(Object.assign(err, {
+						succeeded: false
+					}))
+				}
+			});
+		})
+	},
 	checkPhone: function (phone) {
 		let pattern = /(^1[3|4|5|7|8][0-9]{9}$)/;
 		return pattern.test(phone);
