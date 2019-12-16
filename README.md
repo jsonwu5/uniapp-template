@@ -10,13 +10,13 @@
 
 ## 开发环境
 
-	1.安装项目依赖：npm run install
+	1.安装项目依赖：npm install
 	2.运行项目到头条小程序：npm run dev:mp-toutiao
 	3.打开字节跳动小程序开发工具导入项目，路径为项目根路径/dist/dev
 	
 ## 打包部署
 
-	1.打包小程序：npm run build:toutiao
+	1.打包到字节跳动小程序：npm run build:toutiao
 	2.打包H5：npm run build:h5
 	3.打包文件夹为/dist/build
 	4.使用字节跳动开发者工具上传代码
