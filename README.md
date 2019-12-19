@@ -1,8 +1,9 @@
-# 头条小程序开发模板
+# uniapp小程序开发模板
 
 ## 使用VSCODE开发
 
 [在vscode中开发uniapp](https://ask.dcloud.net.cn/article/36286)
+[在Webstorm中开发uniapp](https://ask.dcloud.net.cn/article/36307)
 
 ## 环境安装
 
