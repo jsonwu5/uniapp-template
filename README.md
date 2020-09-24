@@ -1,13 +1,20 @@
 # uniapp项目开发模板
 
-## 使用VSCODE开发
+## 使用VSCODE/Webstorm开发
 
 [在vscode中开发uniapp](https://ask.dcloud.net.cn/article/36286)
+
 [在Webstorm中开发uniapp](https://ask.dcloud.net.cn/article/36307)
 
 ## 环境安装
 
 	> npm install -g @vue/cli
+	
+## 文档
+
+[luch-request(uniapp插件市场)](https://ext.dcloud.net.cn/plugin?id=392)
+
+[luch-request官网文档](https://www.quanzhan.co/luch-request/guide/3.x/)
 
 ## 开发环境
 

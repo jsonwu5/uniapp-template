@@ -1,3 +1,3 @@
 module.exports = {
-    transpileDependencies: ['luch-request']
+  transpileDependencies: ['luch-request'],
 }
